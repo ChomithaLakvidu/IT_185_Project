@@ -1,0 +1,194 @@
+/*body*/
+body{
+    background-color:#BE9E75;
+}
+
+/*Nav bar*/
+.navbar-brand img { 
+    width: 50px;
+}
+
+.navbar-toggler {
+    background: white;
+}
+
+.navbar-toggler:hover {
+    background-color: white;
+}
+
+.navbar-expand-lg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navbar .container-fluid {
+    text-align: center;
+}
+
+.nav-link {
+    color: white;
+    text-align: center;
+}
+
+.nav-link:hover {
+    color: white; 
+}
+
+.nav-item:hover {
+    background-color: rgba(241, 237, 237, 0.1);
+    border-radius: 10px;
+}
+
+.nav-item{
+    justify-content: center;
+}
+
+.dropdown-menu .dropdown-item.text-white {
+    color: white;
+  }
+  
+  .dropdown-menu .dropdown-item:hover {
+    background-color: #333; /* Adjust the background color as needed */
+  }
+
+/*Header*/
+#header{
+    background: url(images/ban.jpg) top/cover no-repeat;
+}
+.carousel-inner h1{
+    font-size: 60px;   
+}
+
+.container{
+    color: white;
+}
+/*Customer Review*/
+
+
+/*Place Holder Card*/
+.card {
+    border: 1px solid #342106;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px #342106;
+    background: #e4c0c0;
+    margin: 10px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+.container {
+    padding: 2px 16px;
+}
+.row.g-0 {
+    justify-content: center;
+}
+
+  /*About*/
+#about{
+    background-color: rgba(179, 179, 179, 0.05);
+    ;
+}
+
+/*Services*/
+.services {
+    text-align: center;
+    padding: 50px;
+}
+
+.services h2, h3 {
+    color: #333;
+}
+
+.service-cards {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d
+}
+
+.service-card {
+    background-color: #caab8b;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.service-card i {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.service-card h4 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    color: #666;
+}
+
+/*Footer*/
+footer {
+    background-color: #343a40; 
+    color: #fff;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+footer .brand {
+    font-family:Seiston ; 
+    font-size: 20px;
+    color: white; 
+}
+
+footer a {
+    color: #ccc; 
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #f0e68c;
+}
+
+footer h5 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+footer .d-flex {
+    display: flex;
+}
+
+footer .me-4 {
+    margin-right: 1rem;
+}
+
+@media (max-width: 800px) {
+    footer .row {
+        text-align: center;
+    }
+
+    footer .col-md-6 {
+        margin-bottom: 1rem;
+    }
+}
+
+/*Arrow*/
+.arrow{
+    position: fixed;
+    border-radius: 50px;
+    height: 20px;
+    bottom: 40px;
+    right: 10px;
+    line-height: 20px;
+  }
